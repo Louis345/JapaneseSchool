@@ -30,13 +30,14 @@ function Watch() {
                 data-animation="fadeInDown animated"
                 data-delay=".2s"
                 style={{
-                  backgroundImage: "url(assets/img/video/vedio-img.png)",
+                  backgroundImage:
+                    "url(/static/media/slider_img05.61682732d3861164ce54.png)",
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
                 }}
               >
                 <a
-                  href="https://www.youtube.com/watch?v=gyGsPlt06bo"
+                  href="https://youtube.com/shorts/TR9ReZx-TXU?feature=share"
                   className="video-i popup-video"
                 >
                   {" "}
