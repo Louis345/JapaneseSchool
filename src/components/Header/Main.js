@@ -65,7 +65,7 @@ function Main() {
                             </li>
                           </ul>
                         </li> */}
-                        <li className="sub">
+                        {/* <li className="sub">
                           <Link to="/events">イベント</Link>
                           <ul>
                             <li>
@@ -75,8 +75,8 @@ function Main() {
                               <Link to="/eventsdetails">Events Details</Link>
                             </li>
                           </ul>
-                        </li>
-                        <li
+                        </li> */}
+                        {/* <li
                           className="sub"
                           onMouseEnter={() => setInfoMenuOpen(true)}
                           onMouseLeave={() => setInfoMenuOpen(false)}
@@ -95,7 +95,7 @@ function Main() {
                               <Link to="/gallery">入学資格</Link>
                             </li>
                           </ul>
-                        </li>
+                        </li> */}
                         {/* <li className="sub">
                           <Link to="/blog">News</Link>
                           <ul>
@@ -183,10 +183,10 @@ function Main() {
                         <nav className="mean-nav">
                           <ul style={{ display: "block" }}>
                             <li className="sub">
-                              <Link to="/">Home</Link>
+                              <Link to="/">ホーム</Link>
                             </li>
                             <li>
-                              <Link to="/about">About Us</Link>
+                              <Link to="/about">私たちについて</Link>
                             </li>
                             <li className="sub">
                               <Link to="/courses">Courses</Link>
@@ -342,7 +342,7 @@ function Main() {
                   <Link to="/about">About Us</Link>
                 </li>
                 <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                  <Link to="/services">Services</Link>
+                  {/* <Link to="/services">Services</Link> */}
                 </li>
                 <li className="menu-item menu-item-type-custom menu-item-object-custom">
                   <Link to="/pricing">Pricing </Link>
@@ -354,7 +354,7 @@ function Main() {
                   <Link to="/gallery">Gallery Study</Link>
                 </li>
                 <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                  <Link to="/blog">Blog</Link>
+                  {/* <Link to="/blog">Blog</Link> */}
                 </li>
                 <li className="menu-item menu-item-type-custom menu-item-object-custom">
                   <Link to="/contact">Contact</Link>

@@ -22,7 +22,7 @@ function Get() {
             <div className="col-lg-12">
               <div className="section-title center-align text-center mb-50">
                 <h5>Contact</h5>
-                <h2>Get In Tuch</h2>
+                <h2>お問い合わせ</h2>
               </div>
             </div>
           </div>
@@ -34,12 +34,10 @@ function Get() {
                 </div>
                 <div className="services-content2">
                   <h5>Eニュースレター</h5>
-                  <p>
-                    info@webexample.com <br /> jobs@webtrueexample.com{" "}
-                  </p>
+                  <p>Albanyjapanese@gmail.com</p>
                 </div>
               </div>
-              <div className="services-box mt-0 mb-30 text-center">
+              {/* <div className="services-box mt-0 mb-30 text-center">
                 <div className="services-icon">
                   <img src={icon2} alt="icon01" />
                 </div>
@@ -50,20 +48,20 @@ function Get() {
                     093-456-432-654-7
                   </p>
                 </div>
-              </div>
-              <div className="services-box mt-0 mb-30 text-center">
+              </div> */}
+              {/* <div className="services-box mt-0 mb-30 text-center">
                 <div className="services-icon">
                   <img src={Icon3} alt="icon01" />
                 </div>
-                <div className="services-content2">
+                 <div className="services-content2">
                   <h5>Office Address</h5>
                   <p>
                     12/A, Miranda Halim Tower,
                     <br />
                     New York, USA
                   </p>
-                </div>
-              </div>
+                </div> 
+              </div> */}
             </div>
             <div className="col-lg-8 col-md-12">
               <form action="mail.php" method="post" className="contact-form ">
@@ -112,7 +110,7 @@ function Get() {
                       />
                     </div>
                   </div>
-                  <div className="col-lg-12">
+                  {/* <div className="col-lg-12">
                     <div className="contact-field p-relative c-option mb-20">
                       <select name="services" id="sr">
                         <option value="sports-massage">Sports Massage</option>
@@ -124,7 +122,7 @@ function Get() {
                         </option>
                       </select>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="col-lg-12">
                     <div className="contact-field p-relative c-message mb-45">
                       <textarea
@@ -142,7 +140,7 @@ function Get() {
                         data-animation="fadeInRight"
                         data-delay=".8s"
                       >
-                        Submint Now
+                        Submit Now
                       </button>
                     </div>
                   </div>

@@ -30,23 +30,21 @@ function Main() {
                 <div className="footer-widget footer-link mt-20 text-center">
                   <ul>
                     <li>
-                      <Link to="/">Home</Link>
+                      <Link to="/">ホーム</Link>
                     </li>
                     <li>
-                      <Link to="/about"> About Us</Link>
+                      <Link to="/about"> 私たちについて</Link>
                     </li>
                     <li>
                       <Link to="/services"> Courses </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/contact"> Events</Link>
-                    </li>
-                    <li>
-                      <Link to="/blog">Blog </Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    <li>{/* <Link to="/blog">Blog </Link> */}</li>
+                    {/* <li>
                       <Link to="/blog">Contact Us </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -72,7 +70,7 @@ function Main() {
               <div className="col-xl-3 col-lg-3 col-sm-6">
                 <div className="footer-widget mb-30">
                   <div className="f-widget-title">
-                    <h2>About Us</h2>
+                    <h2>私たちについて</h2>
                   </div>
                   <div className="footer-link">
                     オルバニー日本語補習校は、ニューヨーク州で認定された非営利の教育機関で、在留する日本人児童及び日本語継承者の児童を対象に、日本の学習指導要領に沿った教育を提供しています
@@ -122,20 +120,18 @@ function Main() {
                   <div className="footer-link">
                     <ul>
                       <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/">ホーム</Link>
                       </li>
                       <li>
-                        <Link to="/about"> About Us</Link>
+                        <Link to="/about"> 私たちについて</Link>
                       </li>
+                      <li>{/* <Link to="/services"> Services </Link> */}</li>
                       <li>
-                        <Link to="/services"> Services </Link>
+                        <Link to="/contact"> お問い合わせ</Link>
                       </li>
-                      <li>
-                        <Link to="/contact"> Contact Us</Link>
-                      </li>
-                      <li>
+                      {/* <li>
                         <Link to="/blog">Blog </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
